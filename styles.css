@@ -114,6 +114,18 @@ body {
 
 .contact-info__item-icon path {
   fill: var(--icon-color);
+  stroke: var(--icon-color);
+}
+
+.contact-info__item:hover path,
+.contact-info__item:focus path {
+  fill: var(--text-decoration-color);
+  stroke: var(--text-decoration-color);
+}
+
+.contact-info__item:hover span,
+.contact-info__item:focus span {
+  color: var(--text-decoration-color);
 }
 
 .contact-info__item-icon {
